@@ -1,6 +1,6 @@
 [submodule "firefox-bin"]
-	path = firefox-bin
+	path = firefox
 	url = https://github.com/kiss-community/firefox-bin
 [submodule "llvm-bin"]
-	path = llvm-bin
+	path = llvm
 	url = https://github.com/kiss-community/llvm-bin
