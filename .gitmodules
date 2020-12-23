@@ -4,3 +4,6 @@
 [submodule "llvm-bin"]
 	path = llvm
 	url = https://github.com/kiss-community/llvm-bin
+[submodule "pfetch"]
+	path = pfetch
+	url = https://github.com/kiss-community/pfetch-bin
