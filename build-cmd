@@ -1,5 +1,3 @@
 #!/usr/bin/env sh
 kiss update
-kiss build kiss
-kiss install kiss
 kiss build $1

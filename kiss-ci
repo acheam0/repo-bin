@@ -7,4 +7,4 @@ if [ $# -lt 1 ]; then
 fi
 
 docker run --rm --volume $PWD/bin:/root/.cache/kiss/bin \
-  --volume $PWD/kiss-exec:/kiss-exec armaanb/kiss:latest /kiss-exec $1
+  --volume $PWD/build-cmd:/usr/bin/build-cmd armaanb/kiss:builder build-cmd $1
