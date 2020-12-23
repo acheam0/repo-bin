@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Build a KISS package in a container
+
+if [ $# -lt 1 ]; then
+  echo "please provide at least one package to build" >&2
+  exit 1
+fi
+
+docker run --rm --volume $PWD/bin:/root/.cache/kiss/bin \
+  --volume $PWD/kiss-exec:/kiss-exec armaanb/kiss:latest /kiss-exec $1
