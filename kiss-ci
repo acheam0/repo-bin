@@ -6,7 +6,7 @@ if [ $# -lt 1 ]; then
   exit 1
 fi
 
-docker run --rm --volume $PWD/bin:/root/.cache/kiss/bin \
+docker run --env SHELL=/bin/ash --rm --volume $PWD/bin:/root/.cache/kiss/bin \
   --volume $(which build-cmd):/usr/bin/build-cmd armaanb/kiss:builder \
   build-cmd $1
 
