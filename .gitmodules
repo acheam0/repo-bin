@@ -7,3 +7,6 @@
 [submodule "pfetch"]
 	path = pfetch
 	url = https://github.com/kiss-community/pfetch-bin
+[submodule "rust"]
+	path = rust
+	url = https://github.com/kiss-community/rust-bin
