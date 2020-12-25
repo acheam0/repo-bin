@@ -10,4 +10,4 @@ docker run --env SHELL=/bin/ash --rm --volume $PWD/bin:/root/.cache/kiss/bin \
   --volume $(which build-cmd):/usr/bin/build-cmd armaanb/kiss:builder \
   build-cmd $1
 
-rclone copy bin/${1}* wasabi:kiss-bin/${1}/
+rclone sync bin wasabi:kiss-bin/${1}/
