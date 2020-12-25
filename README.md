@@ -14,3 +14,5 @@ Each package is built at https://jenkins.armaanb.net on each push to the submodu
 | GCC  | 10.2.0   | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/gcc-bin/job/main/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/gcc-bin/job/main/) | @ArmaanB
 | LLVM     | 11.0.0-1 |[![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/llvm-bin/job/main/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/llvm-bin/job/main/) | @ArmaanB
 | Rust     | 1.48.0-1 |[![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/job/main/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/job/main/) | @ArmaanB
+
+Note: The Rust package is built, but cannot be installed with `kiss`. When it is extracted, the only directory that `kiss` sees is /var for whatever reason
