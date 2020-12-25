@@ -17,3 +17,6 @@
 [submodule "gcc"]
 	path = gcc
 	url = https://github.com/kiss-community/gcc-bin
+[submodule "nodejs"]
+	path = nodejs
+	url = https://github.com/kiss-community/nodejs-bin
