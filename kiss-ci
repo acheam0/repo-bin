@@ -7,4 +7,7 @@ if [ $# -lt 1 ]; then
 fi
 
 docker run --rm --volume $PWD/bin:/root/.cache/kiss/bin \
-  --volume $PWD/build-cmd:/usr/bin/build-cmd armaanb/kiss:builder build-cmd $1
+  --volume $(which build-cmd):/usr/bin/build-cmd armaanb/kiss:builder \
+  build-cmd $1
+
+rclone copy bin/${1}* wasabi:kiss-bin/${1}/
