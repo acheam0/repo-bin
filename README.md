@@ -8,6 +8,7 @@ Just add this repository to your $KISS_PATH. `kiss` handles the submodules autom
 Each package is built at https://jenkins.armaanb.net on each push to the submodule repositories. It builds the package in a Docker container and pushes the binary to Wasabi object storage. See the [kiss-ci](kiss-ci) script.
 
 ## Packages
+### Matrix
 | Package   | Version  | Build status                                                                                                                                         | Maintainer |
 |----------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | Blender  | 2.91.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/blender-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/blender-bin/) | @ArmaanB
@@ -18,3 +19,8 @@ Each package is built at https://jenkins.armaanb.net on each push to the submodu
 | Node.js     | 15.4.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/nodejs-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/nodejs-bin/) | @ArmaanB
 | Qt5-webengine     | 5.15.2 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/qt5-webengine-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/qt5-webengine-bin/) | @ArmaanB
 | Rust     | 1.48.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/) | @ArmaanB
+
+### Known issues
+  * Blender is not building on the server (despite the build badge) due to dependency resolution issues
+  * Qt5-webengine's libXslt and libxml2 dependencies's sources are down
+  * All build have already run, if there is a "not run" build badge, it is incorrect
