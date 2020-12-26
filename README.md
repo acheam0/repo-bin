@@ -16,6 +16,6 @@ Each package is built at https://jenkins.armaanb.net on each push to the submodu
 | GCC  | 10.2.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/gcc-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/gcc-bin/) | @ArmaanB
 | LLVM     | 11.0.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/llvm-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/llvm-bin/) | @ArmaanB
 | Node.js     | 15.4.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/nodejs-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/nodejs-bin/) | @ArmaanB
-| Qt5     | 5.15.2 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/qt5/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/qt5/) | @ArmaanB
-| Qt5-webengine     | 5.15.2 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/qt5-webengine/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/qt5-webengine/) | @ArmaanB
+| Qt5     | 5.15.2 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/qt5-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/qt5-bin/) | @ArmaanB
+| Qt5-webengine     | 5.15.2 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/qt5-webengine-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/qt5-webengine-bin/) | @ArmaanB
 | Rust     | 1.48.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/) | @ArmaanB
