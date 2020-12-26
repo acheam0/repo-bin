@@ -10,9 +10,10 @@ Each package is built at https://jenkins.armaanb.net on each push to the submodu
 ## Packages
 | Package   | Version  | Build status                                                                                                                                         | Maintainer |
 |----------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| CMake  | 3.19.2 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/firefox-bin/job/main/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/firefox-bin/job/main/) | @ArmaanB
-| Firefox  | 84.0.1 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/firefox-bin/job/main/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/firefox-bin/job/main/) | @ArmaanB
-| GCC  | 10.2.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/gcc-bin/job/main/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/gcc-bin/job/main/) | @ArmaanB
-| LLVM     | 11.0.0 |[![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/llvm-bin/job/main/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/llvm-bin/job/main/) | @ArmaanB
-| Node.js     | 15.4.0 |[![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/nodejs-bin/job/main/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/nodejs-bin/job/main/) | @ArmaanB
-| Rust     | 1.48.0 |[![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/job/main/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/job/main/) | @ArmaanB
+| Blender  | 2.91.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/blender-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/blender-bin/) | @ArmaanB
+| CMake  | 3.19.2 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/cmake-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/cmake-bin/) | @ArmaanB
+| Firefox  | 84.0.1 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/firefox-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/firefox-bin/) | @ArmaanB
+| GCC  | 10.2.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/gcc-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/gcc-bin/) | @ArmaanB
+| LLVM     | 11.0.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/llvm-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/llvm-bin/) | @ArmaanB
+| Node.js     | 15.4.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/nodejs-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/nodejs-bin/) | @ArmaanB
+| Rust     | 1.48.0 | [![Build Status](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/badge/icon)](https://jenkins.armaanb.net/job/kiss-community/job/rust-bin/) | @ArmaanB
