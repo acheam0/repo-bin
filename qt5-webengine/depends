@@ -1,0 +1,16 @@
+ffmpeg
+fontconfig
+freetype-harfbuzz
+libXcomposite
+libXcursor
+libXi
+libXslt
+libXtst
+libdrm
+libevent
+libxml2
+nss
+qt5
+qt5-declarative
+qt5-webchannel
+zlib
